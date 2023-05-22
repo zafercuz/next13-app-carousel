@@ -8,11 +8,15 @@ import StarIcon from './StarIcon'
 const SplideCarousel = () => {
   return (
     <>
-      <Splide aria-label="My Favorite Images" hasTrack={false} options={{
-        classes: {
-          "is_active": "!bg-orange-500"
-        }
-      }}>
+      <Splide
+        aria-label="My Favorite Images"
+        hasTrack={false}
+        options={{
+          classes: {
+            is_active: '!bg-orange-500',
+          },
+        }}
+      >
         <div className="py-16 max-w-[940px] mx-auto flex flex-col justify-center">
           <div className="custom-wrapper">
             <SplideTrack>
