@@ -6,6 +6,7 @@ export default function Home() {
         <Link href="/swiper">Swiper</Link>
         <Link href="/splide">Splide</Link>
         <Link href="/embla">Embla</Link>
+        <Link href="/react-slick">React Slick</Link>
       </div>
   )
 }
